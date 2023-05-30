@@ -24,6 +24,7 @@ function createItemsMarkup(items) {
     .join("");
 }
 
+//створення SimpleLightbox (додавання кліків по зоброженні, відкриття і закриття модального вікна, гортання зображень за допомогою клавіатури і додткової інформація зображення)
 new SimpleLightbox(".gallery a", {
   captionsData: "alt",
   captionDelay: 250,
